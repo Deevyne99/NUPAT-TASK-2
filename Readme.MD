@@ -6,8 +6,9 @@
 <li>Vite
 <ul>
 # installation guide for vite   
+#documentation : https://vitejs.dev/guide/
 <li>npm create vite@latest</li>
-<li>it would ask you for the project name  just put . to say in that project folder</li>
+<li>it would ask you for the project name  just put . to stay in that project folder</li>
 # example:npm create vite@latest my-react-app -- --template . 
 <li>npm install</li>
 # to install node modules 
@@ -16,7 +17,13 @@
 </ul>
 </li>
 <li>React</li>
-<li>Tailwind Css</li>
+<li>Tailwind Css
+<ul>
+<li>you can read the documentation here <a href="https://tailwindcss.com/docs">tailwindcss</a></li>
+
+</ul>
+</li>
+
 </ul>
 
 <h2>folder structure</h2>
