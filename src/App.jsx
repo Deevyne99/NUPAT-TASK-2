@@ -1,13 +1,18 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import Sidebar from './sidebar/Sidebar'
+import Dashboard from './dashboard/Dashboard'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className='bg-red-500'>
-      <h2>hello world</h2>
+    <div className='flex w-full '>
+      <div className=''>
+        <Sidebar />
+      </div>
+      <div className='w-full'>
+        <Dashboard />
+      </div>
     </div>
   )
 }
