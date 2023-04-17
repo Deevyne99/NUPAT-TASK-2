@@ -5,14 +5,14 @@
 <ul>
 <li>Vite
 <ul>
-<!-- installation guide for vite   -->
+# installation guide for vite   
 <li>npm create vite@latest</li>
 <li>it would ask you for the project name  just put . to say in that project folder</li>
-<!-- example:npm create vite@latest my-react-app -- --template . -->
+# example:npm create vite@latest my-react-app -- --template . 
 <li>npm install</li>
-<!-- to install node modules -->
+# to install node modules 
 <li>npm run dev</li>
-<!-- to kick start your application-->
+# to kick start your application
 </ul>
 </li>
 <li>React</li>
