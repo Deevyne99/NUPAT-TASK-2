@@ -1,6 +1,20 @@
+<h1>Introduction</h1>
+<p>This is a simple design of a dashboard landing page, which acts as a project management tool in order to keep track for progress of teams. </p>
+
 <h2>Technologies used</h2>
 <ul>
-<li>Vite</li>
+<li>Vite
+<ul>
+<!-- installation guide for vite   -->
+<li>npm create vite@latest</li>
+<li>it would ask you for the project name  just put . to say in that project folder</li>
+<!-- example:npm create vite@latest my-react-app -- --template . -->
+<li>npm install</li>
+<!-- to install node modules -->
+<li>npm run dev</li>
+<!-- to kick start your application-->
+</ul>
+</li>
 <li>React</li>
 <li>Tailwind Css</li>
 </ul>
