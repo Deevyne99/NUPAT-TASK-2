@@ -8,6 +8,8 @@ export default {
       lightPurple: '#45269C',
       veryLightPurple: '#703EFE',
       grayColor: '#B8B9BD',
+      grey: '#F4F6F8',
+      textGrey: '#858A93',
     },
   },
   plugins: [],
