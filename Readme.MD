@@ -113,5 +113,12 @@ Main.jsx
 </li>
 </ul>
  <h2> Difficulties / challenges</h2>
-
+ <ul>
+ <li>getting the exact image size for the cards for different screen sizes
+ <p>i battled with getting the exact screen size for different screens in the card </p>
+ <h4>my solution </h4>
+ <p>i downloaded the three images for each screen size, I then put them in a div after which on 1200px i made the two other images hidden on 1440px i made the other 2 images hidden and vise versa</p>
+ </li>
+ </ul>
+<h2>Preview of my work</h2>
 <img src='./src/assets/site.png' alt='live site'/>
