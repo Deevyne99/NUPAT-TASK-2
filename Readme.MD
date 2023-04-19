@@ -81,10 +81,10 @@
 <h2>component description</h2>
 <ul>
 <li> Sidebar.jsx 
-<p>This component is found in the sidebar folder which is inside the src folder, It  defines a React component  that represents a sidebar navigation menu for the dashboard. The sidebar contains various menu items with icons and links, and it is styled using Tailwind CSS classes. The Sidebar component is exported as a default export. It is then imported to the App.jsx as a Component.</p>
+<p>This component is found in the sidebar folder which is inside the src folder, It  defines a React component  that represents a sidebar navigation menu for the dashboard. The sidebar contains various menu items with icons and links, and it is styled using Tailwind CSS classes. The Sidebar component is exported as a default export. It is then imported to the App.jsx as a Component. The layout in this component was done using the flex layout</p>
 </li>
 <li>Navbar.jsx
-<p>This component defines a Navbar which contains a header section with a title, a short description, and a button to add members. It also includes a section displaying information about the number of members, as well as various views of the campaign, which are represented by icons. The component imports various image assets, including icons for the views and user avatars, and uses TailwindCSS classes for styling.</p>
+<p>This component defines a Navbar which contains a header section with a title, a short description, and a button to add members. It also includes a section displaying information about the number of members, as well as various views of the campaign, which are represented by icons.  The component imports various image assets, including icons for the views and user avatars, and uses TailwindCSS classes for styling.It is then exported and imported in the Dashboard Component. The layout in this component was done using the flex layout </p>
 </li>
 <li>Description.jsx
 <p>This component is found in the description folder which is inside the src folder. It defines the header of several section and the number of task in each section. It is being used in several sections in the website, making it a resusable component. It was exported from the Description.Jsx and imported to the Container.Jsx where it is being used in several places</p></li>
@@ -94,8 +94,24 @@
 <li>
 Container.jsx
 <p>
-This component is found in the container folder which is inside the src folder. It contains three cards which utilize the <strong>Description</strong> component which was imported from the Description.jsx file. The <strong>Description</strong> component shows the title of each card and the number of tasks in the each section.The cards also contains images, progress bars and also A <strong>Button</strong> component which is a reusable component that is used to ask Add task.
+This component is found in the container folder which is inside the src folder. It contains three cards which utilize the <strong>Description</strong> component which was imported from the Description.jsx file. The <strong>Description</strong> component shows the title of each card and the number of tasks in the each section.The cards also contains images, progress bars and also A <strong>Button</strong> component which is a reusable component that is used to ask Add task.In this component I used the flex layout to display each card.This component is then exported and imported in the Dashboard Component
 </p>
 
 </li>
+<li>Dashboard.jsx
+<p>This component is found in the dashboard folder which is inside the src folder.This components render the <strong>Navbar</strong> component and the <strong>Container<strong> component. The <strong>Dashboard</strong> is then Exported to the <strong>App.jsx</strong>
+</p>
+</li>
+<li>
+App.jsx 
+<p>This component is located in the src folder. This component contains the <strong>Dashboard</strong> component and the <strong>Sidebar</strong> component in a flex layout  and then exported.
+</p>
+<li>
+<li>
+Main.jsx
+<p>This is where the <strong>App.jsx</strong> is imported to and renderd. the UI design is however being displayed into the <strong>index.html</strong> file from the main.jsx file</p>
+</li>
 </ul>
+ <h2> Difficulties / challenges</h2>
+
+<img src='./src/assets/site.png' alt='live site'/>

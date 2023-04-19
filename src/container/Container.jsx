@@ -21,7 +21,7 @@ import Description from '../description/Description'
 const Container = () => {
   return (
     <section className='h-full py-12 mb-36'>
-      <div className='mx-12 flex items-start gap-8'>
+      <div className='mx-12 flex items-start gap-8 font-inter'>
         <div className='w-4/12  flex flex-col'>
           <Description text={'to do'} number={3} />
           <article className='flex flex-col p-3 mt-4 bg-[#fff] rounded-lg'>
@@ -45,7 +45,7 @@ const Container = () => {
               <div className='flex justify-between'>
                 <div className='flex gap-1 items-center'>
                   <img src={preview} alt='' />
-                  <p className='capitalize'>progress</p>
+                  <p className='capitalize text-grayColor'>progress</p>
                 </div>
                 <p className='font-semibold'>2/10</p>
               </div>
@@ -79,7 +79,7 @@ const Container = () => {
               <div className='flex justify-between'>
                 <div className='flex gap-1 items-center'>
                   <img src={preview} alt='' />
-                  <p className='capitalize'>progress</p>
+                  <p className='capitalize text-grayColor'>progress</p>
                 </div>
                 <p className='font-semibold'>2/10</p>
               </div>
@@ -107,7 +107,7 @@ const Container = () => {
           <Button />
         </div>
         <div className='w-4/12  flex flex-col'>
-          <Description text={'inprogress}'} number={1} />
+          <Description text={'inprogress'} number={1} />
           <article className='flex flex-col p-3 mt-4 bg-[#fff] rounded-lg'>
             <div className='w-full'>
               <img src={inprogress1} alt='' className='xl:hidden flex w-full' />
@@ -133,7 +133,7 @@ const Container = () => {
               <div className='flex justify-between'>
                 <div className='flex gap-1 items-center'>
                   <img src={preview} alt='' />
-                  <p className='capitalize'>progress</p>
+                  <p className='capitalize text-grayColor'>progress</p>
                 </div>
                 <p className='font-semibold'>2/10</p>
               </div>
@@ -177,7 +177,7 @@ const Container = () => {
               <div className='flex justify-between'>
                 <div className='flex gap-1 items-center'>
                   <img src={preview} alt='' />
-                  <p className='capitalize'>progress</p>
+                  <p className='capitalize text-grayColor'>progress</p>
                 </div>
                 <p className='font-semibold'>2/10</p>
               </div>
@@ -229,7 +229,7 @@ const Container = () => {
               <div className='flex justify-between'>
                 <div className='flex gap-1 items-center'>
                   <img src={preview} alt='' />
-                  <p className='capitalize'>progress</p>
+                  <p className='capitalize text-grayColor'>progress</p>
                 </div>
                 <p className='font-semibold'>2/10</p>
               </div>

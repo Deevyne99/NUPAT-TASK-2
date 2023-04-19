@@ -15,9 +15,9 @@ const Sidebar = () => {
     <aside className='bg-purple w-[230px] p-8 sticky flex flex-col top-0 left-0 h-full '>
       <div className='flex gap-1 items-center rounded-md  bg-lightPurple text-sm p-3'>
         <img src={Lightning} alt='Lighting' />
-        <p className='text-[#fff]'>Welcome Keerthi</p>
+        <p className='text-[#fff] font-inter'>Welcome Keerthi</p>
       </div>
-      <ul className='flex flex-col mt-10 gap-8'>
+      <ul className='flex flex-col mt-10 gap-8 font-inter text-sm'>
         <li className='flex gap-2 items-center capitalize text-[#fff]'>
           <img src={dashboard} alt='' /> <a href='#0'>dashboard</a>
         </li>
@@ -40,18 +40,20 @@ const Sidebar = () => {
           <img src={affilate} alt='' /> <a href='#0'>affilate</a>
         </li>
         <div className='w-full h-[1px] bg-[#fff] bg-opacity-50'></div>
-        <li className='flex gap-2 items-center capitalize text-[#fff]'>
-          <img src={profile} alt='' /> <a href='#0'>profile</a>
+        <li className='flex gap-2 items-center capitalize text-[#fff] text-opacity-75'>
+          <img src={profile} alt='' className='opacity-75' />{' '}
+          <a href='#0'>profile</a>
         </li>
-        <li className='flex gap-2 items-center capitalize text-[#fff]'>
-          <img src={logout} alt='' /> <a href='#0'>logout</a>
+        <li className='flex gap-2 items-center capitalize text-[#fff] text-opacity-75'>
+          <img src={logout} alt='' className='opacity-75' />{' '}
+          <a href='#0'>logout</a>
         </li>
       </ul>
       <div className='mt-80'>
-        <div className='flex gap-1 items-center rounded-md  bg-veryLightPurple text-sm p-3'>
+        <button className='flex gap-1 items-center rounded-md  bg-veryLightPurple text-sm p-3 w-full font-inter'>
           <img src={Plus} alt='Lighting' />
           <p className='text-[#fff] uppercase'>new project</p>
-        </div>
+        </button>
       </div>
     </aside>
   )
