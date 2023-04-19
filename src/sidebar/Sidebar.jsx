@@ -12,7 +12,7 @@ import Plus from '../assets/Plus.png'
 
 const Sidebar = () => {
   return (
-    <aside className='bg-purple w-[230px] p-8 sticky flex flex-col top-0 left-0 h-full'>
+    <aside className='bg-purple w-[230px] p-8 sticky flex flex-col top-0 left-0 h-full '>
       <div className='flex gap-1 items-center rounded-md  bg-lightPurple text-sm p-3'>
         <img src={Lightning} alt='Lighting' />
         <p className='text-[#fff]'>Welcome Keerthi</p>

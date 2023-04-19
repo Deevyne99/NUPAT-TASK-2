@@ -16,17 +16,14 @@ import user3 from '../assets/user3.png'
 import chat from '../assets/chat.png'
 import file from '../assets/file.png'
 import plus from '../assets/plus-vector.png'
+import Button from '../button/Button'
+import Description from '../description/Description'
 const Container = () => {
   return (
     <section className='h-full py-12 mb-36'>
       <div className='mx-12 flex items-start gap-8'>
         <div className='w-4/12  flex flex-col'>
-          <div className='bg-grey py-2 px-4 rounded-md flex justify-between items-center'>
-            <p className='capitalize text-textGrey'>to do</p>
-            <span className='p-2 w-[40px] text-center rounded-md  bg-[#000] text-[#fff]'>
-              3
-            </span>
-          </div>
+          <Description text={'to do'} number={3} />
           <article className='flex flex-col p-3 mt-4 bg-[#fff] rounded-lg'>
             <div className='w-full'>
               <img src={todo1} alt='' className='xl:hidden flex w-full' />
@@ -107,17 +104,10 @@ const Container = () => {
             </div>
           </div>
 
-          <button className='flex items-center justify-center gap-2 capitalize mt-3 border-dashed border-[2px] border-[#D5D5D5] rounded-md text-[#7D8088] bg-[#F2F4F5] p-2'>
-            <img src={plus} alt='' /> add task
-          </button>
+          <Button />
         </div>
         <div className='w-4/12  flex flex-col'>
-          <div className='bg-grey py-2 px-4 rounded-md flex justify-between items-center'>
-            <p className='capitalize text-textGrey'>inprogress</p>
-            <span className='p-2 w-[40px] text-center rounded-md  bg-[#000] text-[#fff]'>
-              1
-            </span>
-          </div>
+          <Description text={'inprogress}'} number={1} />
           <article className='flex flex-col p-3 mt-4 bg-[#fff] rounded-lg'>
             <div className='w-full'>
               <img src={inprogress1} alt='' className='xl:hidden flex w-full' />
@@ -174,17 +164,10 @@ const Container = () => {
               </div>
             </div>
           </article>
-          <button className='flex items-center justify-center gap-2 capitalize mt-3 border-dashed border-[2px] border-[#D5D5D5] rounded-md text-[#7D8088] bg-[#F2F4F5] p-2'>
-            <img src={plus} alt='' /> add task
-          </button>
+          <Button />
         </div>
         <div className='w-4/12  flex flex-col'>
-          <div className='bg-grey py-2 px-4 rounded-md flex justify-between items-center'>
-            <p className='capitalize text-textGrey'>completed</p>
-            <span className='p-2 w-[40px] text-center rounded-md  bg-[#000] text-[#fff]'>
-              7
-            </span>
-          </div>
+          <Description text={'completed'} number={7} />
           <div className='flex flex-col bg-[#fff] mt-3 p-3 rounded-lg'>
             <div className='flex  justify-between items-center '>
               <h5 className='font-bold  text-lg'>Usability testing</h5>
@@ -277,9 +260,7 @@ const Container = () => {
               </div>
             </div>
           </article>
-          <button className='flex items-center justify-center gap-2 capitalize mt-3 border-dashed border-[2px] border-[#D5D5D5] rounded-md text-[#7D8088] bg-[#F2F4F5] p-2'>
-            <img src={plus} alt='' /> add task
-          </button>
+          <Button />
         </div>
       </div>
     </section>
