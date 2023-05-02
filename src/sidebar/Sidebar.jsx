@@ -16,9 +16,9 @@ const Sidebar = ({ sidebar, SidebarOpen }) => {
     <aside
       className={`bg-purple w-[230px] p-8   ${
         sidebar
-          ? ' absolute transform translate-x-0 flex h-[1350px] duration-500'
+          ? ' absolute transform translate-x-0 flex h-[200%] duration-500'
           : 'absolute translate-x-[-300px] duration-500'
-      } lg:translate-x-[0px] translate-x-[-300px]  lg:sticky  lg:flex flex-col top-0 left-0 h-full z-20 `}
+      } lg:translate-x-[0px]   lg:sticky  lg:flex flex-col top-0 left-0 lg:h-[100%] h-[200%] z-20 `}
     >
       <button
         className='absolute right-4 top-4 lg:hidden '

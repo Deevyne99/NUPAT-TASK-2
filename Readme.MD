@@ -121,4 +121,6 @@ Main.jsx
  </li>
  </ul>
 <h2>Preview of my work</h2>
+<p>Made it mobile responsive you can check the about section in the repo for a quick demo or click <a href="https://silver-donut-aa8090.netlify.app/">Here</a></p>
+
 <img src='./src/assets/site.png' alt='live site'/>
