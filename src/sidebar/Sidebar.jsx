@@ -9,11 +9,24 @@ import affilate from '../assets/affilate.png'
 import profile from '../assets/profile.png'
 import logout from '../assets/logout.png'
 import Plus from '../assets/Plus.png'
+import close from '../assets/close-2.png'
 
-const Sidebar = () => {
+const Sidebar = ({ sidebar, SidebarOpen }) => {
   return (
-    <aside className='bg-purple w-[230px] p-8 sticky flex flex-col top-0 left-0 h-full '>
-      <div className='flex gap-1 items-center rounded-md  bg-lightPurple text-sm p-3'>
+    <aside
+      className={`bg-purple w-[230px] p-8   ${
+        sidebar
+          ? ' absolute transform translate-x-0 flex h-[1350px] duration-500'
+          : 'absolute translate-x-[-300px] duration-500'
+      } lg:translate-x-[0px] translate-x-[-300px]  lg:sticky  lg:flex flex-col top-0 left-0 h-full z-20 `}
+    >
+      <button
+        className='absolute right-4 top-4 lg:hidden '
+        onClick={SidebarOpen}
+      >
+        <img src={close} alt='' />
+      </button>
+      <div className='flex gap-1 items-center rounded-md lg:mt-0 mt-12  bg-lightPurple text-sm p-3'>
         <img src={Lightning} alt='Lighting' />
         <p className='text-[#fff] font-inter'>Welcome Keerthi</p>
       </div>

@@ -20,9 +20,9 @@ import Button from '../button/Button'
 import Description from '../description/Description'
 const Container = () => {
   return (
-    <section className='h-full py-12 mb-36'>
-      <div className='mx-12 flex items-start gap-8 font-inter'>
-        <div className='w-4/12  flex flex-col'>
+    <section className='h-full py-12 mb-64'>
+      <div className='lg:mx-12 mx-6 flex items-start gap-8 font-inter flex-col md:flex-row'>
+        <div className='lg:w-4/12 w-full flex flex-col'>
           <Description text={'to do'} number={3} />
           <article className='flex flex-col p-3 mt-4 bg-[#fff] rounded-lg'>
             <div className='w-full'>
@@ -106,7 +106,7 @@ const Container = () => {
 
           <Button />
         </div>
-        <div className='w-4/12  flex flex-col'>
+        <div className='lg:w-4/12 w-full  flex flex-col'>
           <Description text={'inprogress'} number={1} />
           <article className='flex flex-col p-3 mt-4 bg-[#fff] rounded-lg'>
             <div className='w-full'>
@@ -166,7 +166,7 @@ const Container = () => {
           </article>
           <Button />
         </div>
-        <div className='w-4/12  flex flex-col'>
+        <div className='lg:w-4/12 w-full  flex flex-col'>
           <Description text={'completed'} number={7} />
           <div className='flex flex-col bg-[#fff] mt-3 p-3 rounded-lg'>
             <div className='flex  justify-between items-center '>
